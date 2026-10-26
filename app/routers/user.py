@@ -27,6 +27,4 @@ def get_user(id: int, db: Session = Depends(get_db)):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"User with id: {id} not found.",
         )
-    return user @ router.post(
-        "/", status_code=status.HTTP_201_CREATED, response_model=schemas.UserResponse
-    )
+    return user
