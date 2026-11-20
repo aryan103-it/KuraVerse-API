@@ -2,9 +2,14 @@
 
 **A social media REST API built with FastAPI and PostgreSQL.**
 
-KuraVerse API is a backend project I'm building to learn more about how social platforms work behind the scenes. It handles core features like user accounts, authentication, posts, and voting.
+KuraVerse API is a backend project I'm built to learn more about how social platforms work behind the scenes. It handles core features like user accounts, authentication, posts, and voting.
 
-While working on this project, I've been getting hands-on experience with FastAPI, PostgreSQL, database management, and building REST APIs with Python.
+While working on this project, I got hands-on experience with FastAPI, PostgreSQL, database management, and building REST APIs with Python.
+### Live API Documentation
+
+The API is deployed on Render and can be explored using Swagger UI.
+**https://fastapi-project-omtn.onrender.com/docs#/**
+> Note: The server is hosted on Render's free tier, so it may take a minute to respond after being inactive.
 
 ## Features
 
